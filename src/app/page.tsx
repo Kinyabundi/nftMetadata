@@ -19,7 +19,7 @@ export default function Home() {
 
   const [lastTokenId, setLastTokenId] = useState(1);
 
-  const nftContractAddress = "0xd55a65036d6569f386D61c9c9D94A004eB2513cd";
+  const nftContractAddress = "0x45cE484957c7eb328d0b441eC3b15Bb2f7362cb9";
   const abi = [
     {
       "inputs": [
