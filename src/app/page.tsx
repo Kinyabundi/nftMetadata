@@ -792,7 +792,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      alert("You successfully minted a  PropertyPulseNFT");
+      alert(`You successfully minted a  PropertyPulseNFT: ${newTokenId} `);
     } catch (err) {
       console.error(err);
     }
